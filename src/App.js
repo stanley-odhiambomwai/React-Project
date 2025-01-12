@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import Name from './Name.js';
@@ -23,7 +23,7 @@ function App() {
           <Card.Text>
             <Description />
           </Card.Text>
-          <Button variant="primary">Buy Now</Button>
+          <Button variant="primary" className='product'>Buy Now</Button>
         </Card.Body>
       </Card>
 
@@ -32,8 +32,7 @@ function App() {
           <>
             <p>Hello, {firstName}!</p>
             <img
-              src="https://images.app.goo.gl/qQzxohpUm3wQQABt6" 
-              alt="Profile"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ubuy.ke%2Fen%2Fproduct%2FDU2II1IQ-onn-bluetooth-on-ear-headphones&psig=AOvVaw3NQAO2YPmoMq94Uj_0c_dl&ust=1736607545076000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODvoea164oDFQAAAAAdAAAAABAe"
               style={{ width: '100px', borderRadius: '50%' }}
             />
           </>

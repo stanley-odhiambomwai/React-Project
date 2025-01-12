@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.product:hover,
+.product:focus{
+  color: #92106f;
+  background-color: #bbf42a;
+  border-color: #007bff;
 }
 
 .App-logo {
